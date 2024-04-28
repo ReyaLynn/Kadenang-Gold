@@ -51,6 +51,7 @@ button {
 
 button:hover {
     background-color: #ff9900; /* Darker button color on hover */
+    transform: scale(1.05);
 }
 
 h1, h2 {
