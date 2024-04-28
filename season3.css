@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Soft background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Hide scroll bars */
+}
+
+#titleScreen {
+    background-image: url('images/Title-screen.png'); /* Replace 'background.jpg' with your image file */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: #9e4014; /* Soft button color */
+    color: #ffffffc5;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#playButton {
+    position: absolute;
+    bottom: 260px;
+    size: 10px;
+    font-weight: bolder;
+}
+
+#websiteButton {
+    position: absolute; /* Set the position of the buttons to absolute */
+    bottom: 150px; /* Adjust the distance from the bottom */
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #ff9900; /* Darker button color on hover */
+}
+
+h1, h2 {
+    color: #333333; /* Soft text color */
+}
+
